@@ -40,9 +40,6 @@ bpf-coverage.cover
 
 .DS_Store
 .idea/
-.vscode/*
-!.vscode/launch.json
-!.vscode/extensions.json
 *.plist
 
 *_bash_completion
@@ -119,3 +116,6 @@ bpf/.cache
 
 # Include dummy bpf object necessary for XDP_TX
 !test/l4lb/bpf_xdp_veth_host.o
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
